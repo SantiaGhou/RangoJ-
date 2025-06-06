@@ -23,9 +23,9 @@ export function Header(){
         <header className={styles.header}>
             <img src={Logo} alt="Logo" />
             <nav className={styles.menu}>
-                <a href="#" onClick={closeMenu}>Funcionalidades</a>
-                <a href="#" onClick={closeMenu}>Nossos Clientes</a>
-                <a href="#" onClick={closeMenu}>Catalogo</a>
+                <a href="#how-it-works" onClick={closeMenu}>Como Funciona</a>
+                <a href="#testimonials" onClick={closeMenu}>Nossos Clientes</a>
+                <a href="#features" onClick={closeMenu}>Recursos</a>
             </nav>
             <div className={styles.buttons}>
                 <a href="#" className={styles.createAccountLink} onClick={closeMenu}>

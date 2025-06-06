@@ -45,11 +45,11 @@ export function Hero() {
 
             <div className={styles.actions}>
               <button className={styles.primaryButton}>
-                Baixar App Grátis
+                Entre No app Agora
               </button>
               <button className={styles.secondaryButton}>
                 <Play className={styles.playIcon} />
-                Ver como funciona
+                Veja a Demo do painel de Restaurante
               </button>
             </div>
           </div>
