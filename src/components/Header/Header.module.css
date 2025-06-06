@@ -30,10 +30,12 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+    background-color: #ffffff;
+    opacity: 10;
 }
 
 .header img {
-    height: 9rem;
+    height: 10rem;
     animation: fadeInSlideDown 0.6s ease-out;
 }
 
@@ -254,6 +256,6 @@
         padding: 0 20px;
     }
     .header img {
-        height: 35px;
+        height: 9rem;
     }
 }
